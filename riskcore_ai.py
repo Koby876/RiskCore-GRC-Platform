@@ -1,9 +1,3 @@
-"""
-RiskCore Phase 2 — AI Analysis Module
-Handles: PDF extraction, Claude AI analysis, multi-framework mapping,
-         industry-standard PDF report generation (NIST SP 800-30 aligned)
-"""
-
 import json, re, datetime, os
 from pathlib import Path
 
