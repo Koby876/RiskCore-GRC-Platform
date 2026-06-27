@@ -1,18 +1,3 @@
-"""
-RiskCore Phase 2 — Stable Release
-All bugs fixed + UX improvements:
-- Add Risk now saves correctly and auto-navigates to register
-- Dashboard refreshes after every insert
-- Status bar with DB health and total risk count
-- Refresh buttons on Dashboard and Register
-- Last-refreshed timestamp
-- Auto-refresh after risk creation / deletion / AI approve
-- Better success/error toasts that auto-clear
-- Search/filter state preserved on refresh
-- Audit log CREATE entries verified
-- All None-guard fixes retained from previous pass
-"""
-
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
