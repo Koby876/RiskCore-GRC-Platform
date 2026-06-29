@@ -101,21 +101,6 @@ The platform combines manual risk management with AI-assisted document analysis 
 
 ---
 
-## Screenshots
-
-Add screenshots of:
-
-1. Dashboard
-2. Risk Register
-3. Add Risk
-4. Risk Matrix
-5. AI Analysis
-6. PDF Report
-7. Audit Log
-8. Settings
-
----
-
 ## Intended Use
 
 RiskCore is intended for:
