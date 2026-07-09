@@ -234,7 +234,7 @@ MIT Licence — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-**Koby** — Product Owner, GRC Analyst  
-Engineered with [Claude](https://claude.ai) (Anthropic) as senior engineer
+**Michael Waugh** — Product Owner, GRC Analyst  
+Engineered with Claude AI
 
 > *"Every GRC platform is built for the compliance team. RiskCore is built for the analyst."*
