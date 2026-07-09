@@ -1,0 +1,27 @@
+# RiskCore GRC Platform v1.5 — PySide6 Edition
+# Install with: pip install -r requirements.txt
+
+# Qt for Python (desktop UI)
+PySide6>=6.5.0
+
+# PDF generation (unchanged from v1.0 — reused directly)
+reportlab>=4.0.0
+
+# PDF text extraction (unchanged)
+pypdf>=3.0.0
+
+# API key encryption (unchanged)
+cryptography>=41.0.0
+
+# Note: riskcore_phase2.py and riskcore_ai.py are imported directly
+# as backend modules — no additional dependencies beyond what they
+# already require (sqlite3, json, datetime, pathlib — all stdlib).
+
+# Password hashing for login authentication
+bcrypt>=4.0.0
+
+# Excel export (multi-sheet styled workbooks)
+openpyxl>=3.1.0
+
+# Image handling — required by reportlab for PDF image processing
+pillow>=10.0.0

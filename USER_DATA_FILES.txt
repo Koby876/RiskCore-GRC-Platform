@@ -1,0 +1,15 @@
+FILES NOT INCLUDED IN THIS RELEASE (user data — stays on your machine):
+========================================================================
+riskcore.db          — your database (risks, treatments, settings, password)
+riskcore.log         — application log
+riskcore.key         — encryption key for API key storage
+riskcore_apikey.txt  — encrypted Anthropic API key
+backups/             — database backups folder
+
+UPDATING RISKCORE:
+==================
+1. Copy ONLY the code files from the new release into your RiskCore folder.
+   DO NOT delete or overwrite riskcore.db — that is your data.
+2. Your password, risks, treatments and settings will all be preserved.
+3. If prompted to set a password after updating, your riskcore.db was
+   accidentally replaced. Restore it from your backups/ folder.

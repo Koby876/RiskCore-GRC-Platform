@@ -1,0 +1,35 @@
+# ── User data — NEVER commit these ────────────────────────────────────────────
+riskcore.db
+riskcore.db-shm
+riskcore.db-wal
+riskcore.log
+riskcore.key
+riskcore_apikey.txt
+settings.json
+backups/
+
+# ── Build artifacts ────────────────────────────────────────────────────────────
+dist/
+build/
+*.spec.bak
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# ── IDE / OS ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
